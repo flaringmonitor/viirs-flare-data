@@ -1,6 +1,8 @@
 # Overview
 This repository contains raw and processed flare observation data for oil and gas producing areas of the Lower 48 States of the US.
 
+The original white paper data is available under whitepaper/.
+
 **Processed Directory** 
 
 The data contains processed VIIRS data, satellite-estimated Flaring Volumes, state-reported Flaring Volumes both volumetrically and in their CO<sub>2</sub> equivalents. This data has been created by synthesizing VIIRS measurements with cleaned and organized well meta and production data sourced from public regulatory authorities in New Mexico, Texas, North Dakota and Colorado.   
@@ -35,3 +37,4 @@ Data files are loaded into a Postgres SQL database given Excel file size limitat
 | reported_flares.csv.gz  | Monthly flaring as reported to state regulatory agencies. key_type and key provide a reference to the well or lease record in which this data was found. |
 | states.csv.gz           | State map                                                                                                                                                |
 | viirs.csv.gz            | VIIRS radiant heat data for our four states (North Dakota, New Mexico, Texas, Colorado) region of interest                                               |
+
