@@ -17,3 +17,7 @@ Data files are loaded into a Postgres SQL database given Excel file size limitat
 | reported_flares.csv.gz  | Monthly flaring as reported to state regulatory agencies. key_type and key provide a reference to the well or lease record in which this data was found. |
 | states.csv.gz           | State map                                                                                                                                                |
 | viirs.csv.gz            | VIIRS radiant heat data for our four states (North Dakota, New Mexico, Texas, Colorado) region of interest                                               |
+
+**References**  
+
+[1]. Elvidge, Christopher D., Mikhail Zhizhin, Feng-Chi Hsu, and Kimberly E. Baugh. “VIIRS nightfire: Satellite pyrometry at night.” Remote Sensing 5, no. 9 (2013): 4423-4449.
