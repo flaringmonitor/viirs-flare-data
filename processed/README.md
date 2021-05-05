@@ -16,3 +16,7 @@ Data files are loaded into a Postgres SQL database given Excel file size limitat
 | flaring_monitor_company_stats_satellite_modeled.csv | Flaring Monitor satellite-estimated Flaring Volumes and tons of equivalent CO<sub>2</sub> emitted organized by Operator. The data is available for Operators in the states of Texas, New Mexico and North Dakota and is available from 2019 onwards.                                          |
 | flaring_monitor_company_stats_reported.csv          | State reported flaring volumes and tons of equivalent CO<sub>2</sub> emitted for Texas, New Mexico, Colorado and North Dakota. The data is aggregated by Operator.                                                                                                                            |
 | flaring_monitor_detailed_observations.csv           | Unprocessed satellite radiant heat measurements from VIIRS in MW hours, associated estimated flared volume and tons of equivalent CO<sub>2</sub> emitted by well cluster for operators in Texas, New Mexico and North Dakota. Data is available from 2019 onwards.                            |
+
+**References**  
+
+[1]. Elvidge, Christopher D., Mikhail Zhizhin, Feng-Chi Hsu, and Kimberly E. Baugh. “VIIRS nightfire: Satellite pyrometry at night.” Remote Sensing 5, no. 9 (2013): 4423-4449.
